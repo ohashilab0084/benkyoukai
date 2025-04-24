@@ -92,7 +92,7 @@ while(True):
         deleteData()
         showAll()
     else:
-        try:
+        try:   ###
             serchName(name).show()
         except:
             print(str(name)+'は見つかりませんでした。')
